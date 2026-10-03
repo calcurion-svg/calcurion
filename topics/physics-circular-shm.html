@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Circular Motion &amp; SHM — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / A2</p>
+        <h1>Circular Motion &amp; SHM</h1>
+        <p class="q-intro">10 exam-style questions on centripetal force, simple harmonic motion, energy and resonance. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A particle moves in a horizontal circle of radius \(0.80\,\mathrm{m}\) at constant speed \(4.0\,\mathrm{m\,s}^{-1}\). Calculate the centripetal acceleration and the time for one complete revolution.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(a = v^{2}/r = 16/0.80 = 20\,\mathrm{m\,s}^{-2}\).</p><p>\(T = 2\pi r/v = 2\pi\times0.80/4.0 = 1.26\,\mathrm{s}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>A mass of \(0.50\,\mathrm{kg}\) on a string moves in a vertical circle of radius \(1.2\,\mathrm{m}\). At the lowest point its speed is \(6.0\,\mathrm{m\,s}^{-1}\). Calculate the tension in the string at the lowest point. (\(g=9.8\,\mathrm{m\,s}^{-2}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>At bottom: \(T - mg = mv^{2}/r\).</p><p>\(T = 0.50\times9.8 + 0.50\times36/1.2 = 4.9 + 15 = 19.9\,\mathrm{N}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>An object in SHM has amplitude \(0.12\,\mathrm{m}\) and frequency \(2.5\,\mathrm{Hz}\). Write the equation for its displacement if it starts from the extreme position at \(t=0\), and calculate its maximum speed.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(x = 0.12\cos(5\pi t)\) (since \(\omega=2\pi f=5\pi\)).</p><p>\(v_{\max} = \omega A = 5\pi\times0.12 = 1.88\,\mathrm{m\,s}^{-1}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A car of mass \(1200\,\mathrm{kg}\) travels over a convex bridge of radius \(50\,\mathrm{m}\) at \(15\,\mathrm{m\,s}^{-1}\). Calculate the normal reaction on the car at the highest point. (\(g=9.8\,\mathrm{m\,s}^{-2}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>At top: \(mg - N = mv^{2}/r\).</p><p>\(N = 1200\times9.8 - 1200\times225/50 = 11760 - 5400 = 6360\,\mathrm{N}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A simple pendulum of length \(1.5\,\mathrm{m}\) has a period of \(2.45\,\mathrm{s}\) on Earth. Calculate the acceleration due to gravity at that location. What would the period be on the Moon where \(g=1.6\,\mathrm{m\,s}^{-2}\)?</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(T = 2\pi\sqrt{L/g} \Rightarrow g = 4\pi^{2}L/T^{2} = 4\pi^{2}\times1.5/(2.45)^{2} = 9.86\,\mathrm{m\,s}^{-2}\).</p><p>On Moon: \(T = 2\pi\sqrt{1.5/1.6} = 6.08\,\mathrm{s}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A mass–spring system has mass \(0.40\,\mathrm{kg}\) and spring constant \(160\,\mathrm{N\,m}^{-1}\). It oscillates with amplitude \(0.050\,\mathrm{m}\). Calculate the maximum kinetic energy and the speed when the displacement is \(0.030\,\mathrm{m}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\omega = \sqrt{k/m} = \sqrt{400} = 20\,\mathrm{rad\,s}^{-1}\).</p><p>\(E_{\mathrm{tot}} = \frac12 kA^{2} = 0.5\times160\times0.0025 = 0.20\,\mathrm{J}\) (maximum KE).</p><p>\(v = \omega\sqrt{A^{2}-x^{2}} = 20\sqrt{0.0025-0.0009} = 20\sqrt{0.0016} = 0.80\,\mathrm{m\,s}^{-1}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Explain what is meant by resonance. Describe how the amplitude of a driven oscillator varies with driving frequency, and state the condition for maximum amplitude when damping is light.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Resonance: large amplitude oscillations when a system is driven at (or near) its natural frequency.</p><p>Amplitude is small at low and high frequencies, rises to a peak near the natural frequency. For light damping the peak occurs at a frequency very close to the natural frequency \(\omega_{0}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A particle moves in a horizontal circle of radius \(r\) with constant speed \(v\). Derive an expression for the centripetal force in terms of mass \(m\), \(v\) and \(r\). A satellite of mass \(250\,\mathrm{kg}\) orbits the Earth at a height of \(400\,\mathrm{km}\) above the surface. Radius of Earth \(= 6400\,\mathrm{km}\), \(g=9.8\,\mathrm{m\,s}^{-2}\) at surface. Calculate the orbital speed assuming \(g\) varies as \(1/r^{2}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Acceleration \(a = v^{2}/r\) (from \(a = \omega^{2}r\) or geometry of velocity change). Force \(F = ma = mv^{2}/r\).</p><p>Orbital radius \(r = 6800\,\mathrm{km} = 6.80\times10^{6}\,\mathrm{m}\).</p><p>\(g(r) = g_{0}(R/r)^{2} = 9.8\times(6400/6800)^{2} = 8.68\,\mathrm{m\,s}^{-2}\).</p><p>\(v = \sqrt{gr} = \sqrt{8.68\times6.80\times10^{6}} = 7680\,\mathrm{m\,s}^{-1}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>The displacement of a particle in SHM is \(x = 0.08\sin(10t + \pi/4)\) (SI units). Determine the amplitude, period, maximum acceleration and the displacement at \(t=0\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(A = 0.08\,\mathrm{m}\); \(\omega = 10\,\mathrm{rad\,s}^{-1}\); \(T = 2\pi/\omega = 0.628\,\mathrm{s}\).</p><p>\(a_{\max} = \omega^{2}A = 100\times0.08 = 8.0\,\mathrm{m\,s}^{-2}\).</p><p>At \(t=0\): \(x = 0.08\sin(\pi/4) = 0.08\times\sqrt{2}/2 = 0.0566\,\mathrm{m}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A mass \(m\) is attached to a light spring of stiffness \(k\) on a smooth horizontal surface. The mass is pulled a distance \(A\) from equilibrium and released. Show that the motion is simple harmonic and find expressions for the period and the maximum kinetic energy.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Restoring force \(F = -kx\). Acceleration \(a = F/m = -(k/m)x\). This is of the form \(a = -\omega^{2}x\) with \(\omega^{2} = k/m\), so SHM.</p><p>\(T = 2\pi\sqrt{m/k}\).</p><p>Maximum KE \(=\) total energy \(= \frac12 kA^{2}\).</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="../index.html#physics" class="btn btn-ghost">← All topics</a>
+        <a href="physics-thermal.html" class="btn btn-primary">Thermal Physics →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

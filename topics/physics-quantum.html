@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum Phenomena — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / AS</p>
+        <h1>Quantum Phenomena</h1>
+        <p class="q-intro">10 exam-style questions on the photoelectric effect, energy levels, photons and wave–particle duality. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>Calculate the energy of a photon of wavelength \(450\,\mathrm{nm}\). (\(h = 6.63\times10^{-34}\,\mathrm{J\,s}\), \(c = 3.00\times10^{8}\,\mathrm{m\,s}^{-1}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(E = hc/\lambda = (6.63\times10^{-34}\times3.00\times10^{8})/450\times10^{-9} = 4.42\times10^{-19}\,\mathrm{J}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>The work function of a metal is \(2.3\,\mathrm{eV}\). Calculate the threshold frequency for the photoelectric effect. (\(h = 4.14\times10^{-15}\,\mathrm{eV\,s}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(f_{0} = \phi/h = 2.3/(4.14\times10^{-15}) = 5.56\times10^{14}\,\mathrm{Hz}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>State Einstein’s photoelectric equation and explain the meaning of each term.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(hf = \phi + \frac12 mv_{\max}^{2}\).</p><p>\(hf\): photon energy; \(\phi\): work function (minimum energy to free an electron); \(\frac12 mv_{\max}^{2}\): maximum kinetic energy of emitted photoelectrons.</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Light of frequency \(8.0\times10^{14}\,\mathrm{Hz}\) is incident on a metal surface with work function \(1.8\,\mathrm{eV}\). Calculate the maximum kinetic energy of the photoelectrons in eV and the stopping potential. (\(h = 4.14\times10^{-15}\,\mathrm{eV\,s}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(hf = 4.14\times10^{-15}\times8.0\times10^{14} = 3.31\,\mathrm{eV}\).</p><p>\(KE_{\max} = 3.31 - 1.8 = 1.51\,\mathrm{eV}\).</p><p>Stopping potential \(V_{s} = KE_{\max}/e = 1.51\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>An electron in a hydrogen atom makes a transition from the \(n=3\) level to the \(n=2\) level. The energy of the \(n=2\) level is \(-3.40\,\mathrm{eV}\) and of the \(n=3\) level is \(-1.51\,\mathrm{eV}\). Calculate the wavelength of the emitted photon.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\Delta E = -1.51 - (-3.40) = 1.89\,\mathrm{eV} = 1.89\times1.6\times10^{-19} = 3.02\times10^{-19}\,\mathrm{J}\).</p><p>\(\lambda = hc/\Delta E = (6.63\times10^{-34}\times3\times10^{8})/3.02\times10^{-19} = 6.58\times10^{-7}\,\mathrm{m}\) (\(658\,\mathrm{nm}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Calculate the de Broglie wavelength of an electron accelerated through a potential difference of \(150\,\mathrm{V}\). (Electron mass \(= 9.11\times10^{-31}\,\mathrm{kg}\), \(e = 1.6\times10^{-19}\,\mathrm{C}\), \(h = 6.63\times10^{-34}\,\mathrm{J\,s}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\frac12 mv^{2} = eV \Rightarrow p = \sqrt{2meV} = \sqrt{2\times9.11\times10^{-31}\times1.6\times10^{-19}\times150} = 6.61\times10^{-24}\,\mathrm{kg\,m\,s}^{-1}\).</p><p>\(\lambda = h/p = 6.63\times10^{-34}/6.61\times10^{-24} = 1.00\times10^{-10}\,\mathrm{m}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Explain why the photoelectric effect provides evidence for the particle nature of light, while electron diffraction provides evidence for the wave nature of electrons.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Photoelectric effect: electron emission depends on frequency (threshold), not intensity; KE of electrons independent of intensity but depends on frequency — explained by photons transferring energy quanta \(hf\).</p><p>Electron diffraction: electrons produce interference/diffraction patterns, which are wave phenomena; hence electrons have an associated wavelength (de Broglie).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>In a photoelectric experiment the stopping potential is \(0.85\,\mathrm{V}\) when light of wavelength \(480\,\mathrm{nm}\) is used. Calculate the work function of the metal in eV and the threshold wavelength. (\(h = 4.14\times10^{-15}\,\mathrm{eV\,s}\), \(c = 3.00\times10^{8}\,\mathrm{m\,s}^{-1}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(hf = hc/\lambda = (4.14\times10^{-15}\times3\times10^{8})/480\times10^{-9} = 2.59\,\mathrm{eV}\).</p><p>\(\phi = hf - eV_{s} = 2.59 - 0.85 = 1.74\,\mathrm{eV}\).</p><p>\(\lambda_{0} = hc/\phi = (4.14\times10^{-15}\times3\times10^{8})/1.74 = 7.14\times10^{-7}\,\mathrm{m}\) (\(714\,\mathrm{nm}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>The ground state energy of a hydrogen atom is \(-13.6\,\mathrm{eV}\). Calculate the ionisation energy and the energy of a photon emitted when an electron falls from the \(n=4\) level to the ground state. The energy of level \(n\) is \(E_{n} = -13.6/n^{2}\,\mathrm{eV}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Ionisation energy \(= 13.6\,\mathrm{eV}\) (energy to go from \(n=1\) to \(n=\infty\)).</p><p>\(E_{4} = -13.6/16 = -0.85\,\mathrm{eV}\).</p><p>Photon energy \(= E_{4} - E_{1} = -0.85 - (-13.6) = 12.75\,\mathrm{eV}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>An electron microscope accelerates electrons through \(20\,\mathrm{kV}\). Calculate the de Broglie wavelength of the electrons and explain why this allows much higher resolution than an optical microscope using visible light (\(\lambda\sim500\,\mathrm{nm}\)). (Use \(m_{e}=9.11\times10^{-31}\,\mathrm{kg}\), \(e=1.6\times10^{-19}\,\mathrm{C}\), \(h=6.63\times10^{-34}\,\mathrm{J\,s}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(p = \sqrt{2meV} = \sqrt{2\times9.11\times10^{-31}\times1.6\times10^{-19}\times2\times10^{4}} = 7.63\times10^{-23}\,\mathrm{kg\,m\,s}^{-1}\).</p><p>\(\lambda = h/p = 8.69\times10^{-12}\,\mathrm{m}\).</p><p>The electron wavelength is \(\sim10^{4}\) times smaller than visible light, so the diffraction limit is correspondingly smaller, allowing much finer detail to be resolved.</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-electricity.html" class="btn btn-ghost">← Electricity</a>
+        <a href="../index.html#physics" class="btn btn-primary">All Physics topics →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

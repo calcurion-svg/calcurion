@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanics &amp; Materials — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / AS</p>
+        <h1>Mechanics &amp; Materials</h1>
+        <p class="q-intro">10 exam-style questions on density, stress, strain, Young modulus and elastic energy. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A metal wire of diameter \(0.50\,\mathrm{mm}\) and original length \(2.00\,\mathrm{m}\) is stretched by \(1.2\,\mathrm{mm}\). Calculate the strain in the wire.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Strain \(= \Delta L / L = 1.2\times10^{-3}/2.00 = 6.0\times10^{-4}\) (dimensionless).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>A steel bar has cross-sectional area \(2.5\times10^{-4}\,\mathrm{m}^{2}\) and is subjected to a tensile force of \(15\,\mathrm{kN}\). Calculate the stress in the bar.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Stress \(\sigma = F/A = 15000 / 2.5\times10^{-4} = 6.0\times10^{7}\,\mathrm{Pa}\) (\(60\,\mathrm{MPa}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>Define density and state its SI unit. A cube of side \(4.0\,\mathrm{cm}\) has mass \(0.48\,\mathrm{kg}\). Calculate its density.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Density \(\rho = m/V\), unit \(\mathrm{kg\,m}^{-3}\).</p><p>\(V = (0.04)^{3} = 6.4\times10^{-5}\,\mathrm{m}^{3}\); \(\rho = 0.48/6.4\times10^{-5} = 7500\,\mathrm{kg\,m}^{-3}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A wire of length \(1.50\,\mathrm{m}\) and cross-sectional area \(0.80\,\mathrm{mm}^{2}\) is stretched by \(0.90\,\mathrm{mm}\) when a load of \(25\,\mathrm{N}\) is applied. Calculate the Young modulus of the material.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(E = \sigma/\varepsilon = (F/A)/(\Delta L/L) = FL/(A\Delta L)\).</p><p>\(A = 0.80\times10^{-6}\,\mathrm{m}^{2}\); \(E = 25\times1.50/(0.80\times10^{-6}\times0.90\times10^{-3}) = 5.21\times10^{10}\,\mathrm{Pa}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A spring of natural length \(0.40\,\mathrm{m}\) and spring constant \(120\,\mathrm{N\,m}^{-1}\) is stretched to \(0.55\,\mathrm{m}\). Calculate the elastic potential energy stored and the force required to hold it at this extension.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Extension \(x = 0.15\,\mathrm{m}\).</p><p>\(E = \frac12 kx^{2} = 0.5\times120\times0.0225 = 1.35\,\mathrm{J}\).</p><p>\(F = kx = 120\times0.15 = 18\,\mathrm{N}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A copper wire of diameter \(1.2\,\mathrm{mm}\) and length \(2.5\,\mathrm{m}\) is subjected to a tensile stress of \(1.5\times10^{8}\,\mathrm{Pa}\). Young modulus for copper is \(1.2\times10^{11}\,\mathrm{Pa}\). Calculate the extension of the wire and the strain energy stored if the deformation is elastic.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Strain \(\varepsilon = \sigma/E = 1.5\times10^{8}/1.2\times10^{11} = 1.25\times10^{-3}\).</p><p>\(\Delta L = \varepsilon L = 1.25\times10^{-3}\times2.5 = 3.125\times10^{-3}\,\mathrm{m}\).</p><p>\(A = \pi(0.6\times10^{-3})^{2} = 1.13\times10^{-6}\,\mathrm{m}^{2}\).</p><p>Energy \(= \frac12 \sigma\varepsilon\times\text{volume} = 0.5\times1.5\times10^{8}\times1.25\times10^{-3}\times(1.13\times10^{-6}\times2.5) = 0.265\,\mathrm{J}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Sketch a typical stress–strain graph for a ductile metal up to fracture. Label the limit of proportionality, yield point and ultimate tensile strength. Explain what is meant by plastic deformation.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Graph rises linearly to the limit of proportionality, continues almost linearly to the yield point, then curves, reaches a maximum (UTS) and falls to fracture.</p><p>Plastic deformation: permanent deformation that remains after the stress is removed; the material does not return to its original length.</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>Two wires of the same material and length are connected in parallel and support a total load of \(200\,\mathrm{N}\). Wire A has cross-sectional area \(1.0\,\mathrm{mm}^{2}\) and wire B has area \(3.0\,\mathrm{mm}^{2}\). Calculate the stress in each wire, assuming they stretch by the same amount.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Same material and length \(\Rightarrow\) same strain \(\Rightarrow\) stress proportional to area? No: same strain \(\Rightarrow\) same stress (Hooke’s law). Force shared in proportion to area.</p><p>\(F_A/F_B = A_A/A_B = 1/3\). \(F_A + F_B = 200 \Rightarrow F_A = 50\,\mathrm{N}\), \(F_B = 150\,\mathrm{N}\).</p><p>Stress in both: \(\sigma = 50/(1.0\times10^{-6}) = 5.0\times10^{7}\,\mathrm{Pa}\) (same for B).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>A steel cable of unstretched length \(25\,\mathrm{m}\) and cross-sectional area \(4.0\,\mathrm{cm}^{2}\) supports a lift of mass \(1200\,\mathrm{kg}\). Young modulus for steel \(= 2.0\times10^{11}\,\mathrm{Pa}\). Calculate the extension of the cable when the lift is at rest, and the additional extension when the lift accelerates upwards at \(1.5\,\mathrm{m\,s}^{-2}\). (\(g=9.8\,\mathrm{m\,s}^{-2}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>At rest: \(F = mg = 11760\,\mathrm{N}\); \(A = 4.0\times10^{-4}\,\mathrm{m}^{2}\).</p><p>\(\Delta L = FL/(AE) = 11760\times25/(4.0\times10^{-4}\times2.0\times10^{11}) = 3.68\times10^{-3}\,\mathrm{m}\).</p><p>Accelerating: \(T - mg = ma \Rightarrow T = m(g+a) = 1200\times11.3 = 13560\,\mathrm{N}\).</p><p>New extension \(= 13560\times25/(4.0\times10^{-4}\times2.0\times10^{11}) = 4.24\times10^{-3}\,\mathrm{m}\).</p><p>Additional extension \(= 0.56\,\mathrm{mm}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A rubber cord of natural length \(0.80\,\mathrm{m}\) and cross-sectional area \(4.0\,\mathrm{mm}^{2}\) is stretched to \(1.20\,\mathrm{m}\). The force–extension graph is linear up to this point with gradient \(150\,\mathrm{N\,m}^{-1}\). Calculate the Young modulus of the rubber and the energy stored in the cord.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Extension \(x = 0.40\,\mathrm{m}\); \(k = 150\,\mathrm{N\,m}^{-1}\).</p><p>\(E = (F/A)/(\Delta L/L) = (kx\,L)/(A\,x) = kL/A = 150\times0.80/(4.0\times10^{-6}) = 3.0\times10^{7}\,\mathrm{Pa}\).</p><p>Energy \(= \frac12 kx^{2} = 0.5\times150\times0.16 = 12\,\mathrm{J}\).</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-waves.html" class="btn btn-ghost">← Waves</a>
+        <a href="physics-electricity.html" class="btn btn-primary">Electricity →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

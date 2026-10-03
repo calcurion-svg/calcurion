@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuclear Physics — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / A2</p>
+        <h1>Nuclear Physics</h1>
+        <p class="q-intro">10 exam-style questions on radioactivity, half-life, binding energy, fission and fusion. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A radioactive sample has a half-life of \(8.0\) days. Calculate the fraction of the original activity remaining after \(24\) days.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Number of half-lives \(= 24/8 = 3\).</p><p>Fraction remaining \(= (1/2)^{3} = 1/8\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>Write the nuclear equation for the alpha decay of \(^{238}_{92}\mathrm{U}\) and state the mass number and atomic number of the daughter nucleus.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(^{238}_{92}\mathrm{U} \to ^{234}_{90}\mathrm{Th} + ^{4}_{2}\mathrm{He}\).</p><p>Daughter: mass number \(234\), atomic number \(90\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>Define binding energy and binding energy per nucleon. State which nuclei have the highest binding energy per nucleon.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Binding energy: the energy required to separate a nucleus into its individual protons and neutrons (or the energy released when the nucleus is formed).</p><p>Binding energy per nucleon: binding energy divided by the mass number \(A\).</p><p>Nuclei around iron-56 have the highest binding energy per nucleon.</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>The activity of a radioactive source falls from \(8.0\times10^{4}\,\mathrm{Bq}\) to \(1.0\times10^{4}\,\mathrm{Bq}\) in \(36\) hours. Calculate the half-life of the source and the decay constant.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(A = A_{0}e^{-\lambda t} \Rightarrow 1/8 = e^{-\lambda\times36} \Rightarrow \ln8 = \lambda\times36 \Rightarrow \lambda = 0.0578\,\mathrm{h}^{-1}\).</p><p>\(T_{1/2} = \ln2/\lambda = 0.693/0.0578 = 12.0\,\mathrm{h}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A nucleus of \(^{235}\mathrm{U}\) absorbs a neutron and fissions into \(^{141}\mathrm{Ba}\) and \(^{92}\mathrm{Kr}\) plus neutrons. Write a balanced equation for the reaction and calculate the number of neutrons released.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(^{235}_{92}\mathrm{U} + ^{1}_{0}\mathrm{n} \to ^{141}_{56}\mathrm{Ba} + ^{92}_{36}\mathrm{Kr} + 3^{1}_{0}\mathrm{n}\).</p><p>Mass number: \(235+1 = 141+92 + n \Rightarrow n = 3\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>The mass of a \(^{4}\mathrm{He}\) nucleus is \(4.0015\,\mathrm{u}\) and the mass of a proton is \(1.0073\,\mathrm{u}\), of a neutron \(1.0087\,\mathrm{u}\). Calculate the binding energy of the helium nucleus in MeV. (\(1\,\mathrm{u} = 931.5\,\mathrm{MeV}/c^{2}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Mass of \(2p + 2n = 2\times1.0073 + 2\times1.0087 = 4.0320\,\mathrm{u}\).</p><p>Mass defect \(= 4.0320 - 4.0015 = 0.0305\,\mathrm{u}\).</p><p>Binding energy \(= 0.0305\times931.5 = 28.4\,\mathrm{MeV}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Explain the difference between nuclear fission and nuclear fusion. State which process releases energy for nuclei lighter than iron and which for nuclei heavier than iron.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Fission: a heavy nucleus splits into two lighter nuclei (plus neutrons). Fusion: two light nuclei combine to form a heavier nucleus.</p><p>Fusion of nuclei lighter than iron increases binding energy per nucleon and releases energy. Fission of nuclei heavier than iron also increases binding energy per nucleon and releases energy.</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A sample contains \(2.5\times10^{16}\) radioactive nuclei with a decay constant of \(1.2\times10^{-6}\,\mathrm{s}^{-1}\). Calculate the activity of the sample and the time taken for the activity to fall to \(1.0\times10^{9}\,\mathrm{Bq}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(A_{0} = \lambda N = 1.2\times10^{-6}\times2.5\times10^{16} = 3.0\times10^{10}\,\mathrm{Bq}\).</p><p>\(A = A_{0}e^{-\lambda t} \Rightarrow 1.0\times10^{9}/3.0\times10^{10} = e^{-\lambda t} \Rightarrow \ln(30) = \lambda t\).</p><p>\(t = 3.40/(1.2\times10^{-6}) = 2.83\times10^{6}\,\mathrm{s}\) (\(\approx 32.8\) days).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>In a fusion reaction \(^{2}_{1}\mathrm{H} + ^{3}_{1}\mathrm{H} \to ^{4}_{2}\mathrm{He} + ^{1}_{0}\mathrm{n}\). The masses are: \(^{2}\mathrm{H} = 2.0141\,\mathrm{u}\), \(^{3}\mathrm{H} = 3.0160\,\mathrm{u}\), \(^{4}\mathrm{He} = 4.0026\,\mathrm{u}\), neutron \(= 1.0087\,\mathrm{u}\). Calculate the energy released in MeV.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Mass of reactants \(= 2.0141 + 3.0160 = 5.0301\,\mathrm{u}\).</p><p>Mass of products \(= 4.0026 + 1.0087 = 5.0113\,\mathrm{u}\).</p><p>Mass defect \(= 0.0188\,\mathrm{u}\); energy \(= 0.0188\times931.5 = 17.5\,\mathrm{MeV}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A radioactive isotope is used as a tracer. Its half-life is \(6.0\) hours. A patient is injected with a sample of activity \(2.4\times10^{6}\,\mathrm{Bq}\). Calculate the activity after \(18\) hours, ignoring biological removal. Explain why a short half-life is desirable for a medical tracer.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Three half-lives: activity \(= 2.4\times10^{6}/8 = 3.0\times10^{5}\,\mathrm{Bq}\).</p><p>Short half-life means the activity (and therefore the radiation dose to the patient) falls quickly after the diagnostic procedure is complete, reducing the long-term radiation exposure.</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-magnetism.html" class="btn btn-ghost">← Magnetism</a>
+        <a href="../index.html#physics" class="btn btn-primary">All Physics topics →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magnetic Fields &amp; Induction — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / A2</p>
+        <h1>Magnetic Fields &amp; Induction</h1>
+        <p class="q-intro">10 exam-style questions on force on currents and charges, magnetic flux, Faraday’s and Lenz’s laws. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A straight wire of length \(0.25\,\mathrm{m}\) carries a current of \(3.0\,\mathrm{A}\) perpendicular to a magnetic field of flux density \(0.40\,\mathrm{T}\). Calculate the force on the wire.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(F = BIl = 0.40\times3.0\times0.25 = 0.30\,\mathrm{N}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>An electron moves at \(2.0\times10^{6}\,\mathrm{m\,s}^{-1}\) perpendicular to a magnetic field of \(0.15\,\mathrm{T}\). Calculate the magnitude of the force on the electron. (\(e = 1.6\times10^{-19}\,\mathrm{C}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(F = Bev = 0.15\times1.6\times10^{-19}\times2.0\times10^{6} = 4.8\times10^{-14}\,\mathrm{N}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>State Faraday’s law and Lenz’s law.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Faraday: the magnitude of the induced EMF is equal to the rate of change of magnetic flux linkage (\(\mathcal{E} = -N\mathrm{d}\Phi/\mathrm{d}t\)).</p><p>Lenz: the direction of the induced EMF is such that it opposes the change that produces it.</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A circular coil of \(150\) turns and radius \(4.0\,\mathrm{cm}\) is placed with its plane perpendicular to a magnetic field that decreases from \(0.60\,\mathrm{T}\) to \(0.20\,\mathrm{T}\) in \(0.050\,\mathrm{s}\). Calculate the average induced EMF.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\Phi = BA = 0.60\times\pi\times(0.04)^{2}\) initially; \(\Delta\Phi = 0.40\times\pi\times0.0016 = 2.01\times10^{-3}\,\mathrm{Wb}\).</p><p>\(\mathcal{E} = N\Delta\Phi/\Delta t = 150\times2.01\times10^{-3}/0.050 = 6.03\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A proton moves in a circular path of radius \(0.50\,\mathrm{m}\) in a magnetic field of \(0.80\,\mathrm{T}\). Calculate the speed of the proton. (Proton mass \(= 1.67\times10^{-27}\,\mathrm{kg}\), \(e = 1.6\times10^{-19}\,\mathrm{C}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(r = mv/(Be) \Rightarrow v = Ber/m = 0.80\times1.6\times10^{-19}\times0.50/1.67\times10^{-27} = 3.83\times10^{7}\,\mathrm{m\,s}^{-1}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A rectangular coil of \(80\) turns, area \(0.020\,\mathrm{m}^{2}\), rotates at \(50\,\mathrm{Hz}\) in a magnetic field of \(0.15\,\mathrm{T}\). Calculate the maximum induced EMF.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\mathcal{E}_{\max} = NBA\omega = 80\times0.15\times0.020\times2\pi\times50 = 75.4\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Explain why a conducting rod moving perpendicular to a magnetic field has an induced EMF between its ends, and state the factors that determine the magnitude of the EMF.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Free charges in the rod experience a magnetic force \(F = Bqv\) that drives them to one end, creating a potential difference until the electric force balances the magnetic force.</p><p>Magnitude \(\mathcal{E} = Blv\) depends on field strength, length of rod and speed of motion (all perpendicular components).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A coil of \(200\) turns and area \(0.015\,\mathrm{m}^{2}\) has a resistance of \(4.0\,\Omega\). It is placed in a magnetic field of \(0.50\,\mathrm{T}\) that is reduced to zero in \(0.10\,\mathrm{s}\). Calculate the average induced current and the charge that flows through the coil.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\mathcal{E}_{\mathrm{avg}} = N\Delta\Phi/\Delta t = 200\times0.50\times0.015/0.10 = 15\,\mathrm{V}\).</p><p>\(I_{\mathrm{avg}} = \mathcal{E}/R = 15/4 = 3.75\,\mathrm{A}\).</p><p>\(Q = I\Delta t = 3.75\times0.10 = 0.375\,\mathrm{C}\) (or \(Q = N\Delta\Phi/R\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A long straight wire carries a current of \(8.0\,\mathrm{A}\). Calculate the magnetic flux density at a distance of \(4.0\,\mathrm{cm}\) from the wire. A second parallel wire \(4.0\,\mathrm{cm}\) away carries \(5.0\,\mathrm{A}\) in the same direction. Calculate the force per unit length on each wire and state whether it is attractive or repulsive. (\(\mu_{0} = 4\pi\times10^{-7}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(B = \mu_{0}I/(2\pi r) = 4\pi\times10^{-7}\times8/(2\pi\times0.04) = 4.0\times10^{-5}\,\mathrm{T}\).</p><p>\(F/l = \mu_{0}I_{1}I_{2}/(2\pi d) = 4\pi\times10^{-7}\times8\times5/(2\pi\times0.04) = 2.0\times10^{-4}\,\mathrm{N\,m}^{-1}\) (attractive — currents in same direction).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>A square loop of side \(5.0\,\mathrm{cm}\) and resistance \(0.20\,\Omega\) moves at constant speed \(2.0\,\mathrm{m\,s}^{-1}\) into a uniform magnetic field of \(0.30\,\mathrm{T}\) directed into the page. The field region is wide. Calculate the induced current while the loop is entering the field, and sketch a graph of induced current against time from the moment the leading edge enters until the trailing edge leaves a field region \(20\,\mathrm{cm}\) wide.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>While entering: \(\mathcal{E} = B\ell v = 0.30\times0.05\times2.0 = 0.030\,\mathrm{V}\); \(I = 0.030/0.20 = 0.15\,\mathrm{A}\).</p><p>Current is constant while entering (0.025 s), zero while fully inside, then constant (opposite direction) while leaving. Graph: rectangular pulse positive, gap, rectangular pulse negative.</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-fields.html" class="btn btn-ghost">← Fields</a>
+        <a href="physics-nuclear.html" class="btn btn-primary">Nuclear →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
