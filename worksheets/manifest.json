@@ -152,15 +152,25 @@
       "pages": 4,
       "topic": "Probability & Stats"
     },
-    {
+      {
       "id": "pure-1-Quadratics",
-      "title": "Algebra & Functions",
+      "title": "Quadraticss",
       "module": "pure-1",
       "moduleLabel": "Pure 1",
       "file": "pdfs/pure-1/worksheets/Calcurion_ALevel_Pure1_Quadratics.pdf",
       "description": "Exam-style practice with space to work \u2014 quadratics.",
       "pages": 4,
-      "topic": "Algebra & Functions"
+      "topic": "Quadratics"
+    },
+    {
+      "id": "pure-1-Equations_Inequalities",
+      "title": "Equations_Inequalities",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/worksheets/Calcurion_ALevel_Pure1_Equations_Inequalities.pdf",
+      "description": "Exam-style practice with space to work \u2014 Equations_Inequalities.",
+      "pages": 4,
+      "topic": "Equations_Inequalities"
     },
     {
       "id": "pure-1-coordinate-geometry",
