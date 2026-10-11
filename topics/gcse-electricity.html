@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electricity — Calcurion GCSE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text><text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text></svg></span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#gcse-physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / GCSE Physics</p>
+        <h1>Electricity</h1>
+        <p class="q-intro">10 exam-style questions on current, voltage, resistance, series and parallel circuits, and power. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats"><span class="diff-tag easy">3 Easy</span><span class="diff-tag medium">4 Medium</span><span class="diff-tag hard">3 Hard</span></div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A current of \(0.50\,\mathrm{A}\) flows through a resistor for \(2.0\) minutes. Calculate the charge that passes.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(Q = It = 0.50\times120 = 60\,\mathrm{C}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A \(12\,\mathrm{V}\) battery is connected to a \(4.0\,\Omega\) resistor. Calculate the current.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(I = V/R = 12/4.0 = 3.0\,\mathrm{A}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>Calculate the power of a lamp that uses \(60\,\mathrm{J}\) of energy in \(2.0\,\mathrm{s}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(P = E/t = 60/2.0 = 30\,\mathrm{W}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag medium">Medium</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>Two resistors of \(3.0\,\Omega\) and \(6.0\,\Omega\) are connected in series across a \(9.0\,\mathrm{V}\) supply. Calculate the total resistance and the current in the circuit.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(R_{\mathrm{tot}} = 9.0\,\Omega\); \(I = 9.0/9.0 = 1.0\,\mathrm{A}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>The same two resistors (\(3.0\,\Omega\) and \(6.0\,\Omega\)) are connected in parallel across \(9.0\,\mathrm{V}\). Calculate the total resistance and the current through the \(3.0\,\Omega\) resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(1/R = 1/3 + 1/6 = 1/2 \Rightarrow R = 2.0\,\Omega\).</p><p>\(I_{3} = 9.0/3.0 = 3.0\,\mathrm{A}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>A \(2.0\,\mathrm{kW}\) heater is connected to the \(230\,\mathrm{V}\) mains. Calculate the current it draws and the energy it uses in \(30\) minutes.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(I = P/V = 2000/230 = 8.7\,\mathrm{A}\).</p><p>\(E = Pt = 2000\times1800 = 3.6\times10^{6}\,\mathrm{J}\) (\(3.6\,\mathrm{MJ}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>State Ohm’s law. Sketch the current–voltage graph for an ohmic conductor and for a filament lamp.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Ohm’s law: current is proportional to potential difference (at constant temperature); \(V = IR\).</p><p>Ohmic: straight line through origin. Filament lamp: curve that flattens (resistance increases as temperature rises).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A wire of length \(2.0\,\mathrm{m}\) and cross-sectional area \(0.50\,\mathrm{mm}^{2}\) has resistance \(0.68\,\Omega\). Calculate its resistivity.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(\rho = RA/L = 0.68\times0.50\times10^{-6}/2.0 = 1.7\times10^{-7}\,\Omega\,\mathrm{m}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>In a series circuit the current is the same everywhere. In a parallel circuit the potential difference across each branch is the same. Explain why, in terms of energy and charge.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Series: charge has only one path, so the same charge per second (current) flows through each component. Energy is shared, so PD adds up.</p><p>Parallel: each branch is connected directly across the supply, so each experiences the same PD. Charge splits between branches, so currents add.</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A fuse is rated at \(3\,\mathrm{A}\). Explain what a fuse does and why a \(13\,\mathrm{A}\) fuse should not be used in a circuit that only needs \(3\,\mathrm{A}\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>A fuse melts (blows) if the current exceeds its rating, breaking the circuit and protecting against overheating/fire.</p><p>A \(13\,\mathrm{A}\) fuse would allow a dangerously high current to flow before melting, so the cable or appliance could overheat before the fuse blows.</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="gcse-waves.html" class="btn btn-ghost">← Waves</a>
+        <a href="gcse-magnetism.html" class="btn btn-primary">Magnetism →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

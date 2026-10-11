@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waves — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / AS</p>
+        <h1>Waves</h1>
+        <p class="q-intro">10 exam-style questions on progressive waves, superposition, standing waves, diffraction and refraction. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">3 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">3 Hard</span>
+        </div>
+      </div>
+
+      <!-- Q1 Easy -->
+      <article class="question" data-diff="easy">
+        <div class="q-meta">
+          <span class="q-num">Q1</span> <span class="diff-tag easy">Easy</span>
+          <span class="q-marks">3 marks</span>
+        </div>
+        <div class="q-body">
+          <p>A progressive wave has frequency \(250\,\mathrm{Hz}\) and wavelength \(1.36\,\mathrm{m}\). Calculate its speed and the phase difference between two points on the wave that are \(0.34\,\mathrm{m}\) apart.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>\(v = f\lambda = 250\times1.36 = 340\,\mathrm{m\,s}^{-1}\).</p>
+          <p>Phase difference \(\Delta\phi = \dfrac{2\pi}{\lambda}\times\Delta x = \dfrac{2\pi}{1.36}\times0.34 = \dfrac{\pi}{2}\,\mathrm{rad}\) (or \(90^\circ\)).</p>
+        </div>
+      </article>
+
+      <!-- Q2 Easy -->
+      <article class="question" data-diff="easy">
+        <div class="q-meta">
+          <span class="q-num">Q2</span> <span class="diff-tag easy">Easy</span>
+          <span class="q-marks">4 marks</span>
+        </div>
+        <div class="q-body">
+          <p>State the principle of superposition. Two coherent sources of sound of wavelength \(0.80\,\mathrm{m}\) produce a minimum of intensity at a point where the path difference is \(1.20\,\mathrm{m}\). Explain why this is a minimum.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>When two or more waves meet, the resultant displacement is the vector sum of the individual displacements.</p>
+          <p>Path difference \(1.20\,\mathrm{m} = 1.5\lambda\), which is an odd multiple of \(\lambda/2\). The waves arrive in antiphase and interfere destructively → minimum intensity.</p>
+        </div>
+      </article>
+
+      <!-- Q3 Easy -->
+      <article class="question" data-diff="easy">
+        <div class="q-meta">
+          <span class="q-num">Q3</span> <span class="diff-tag easy">Easy</span>
+          <span class="q-marks">3 marks</span>
+        </div>
+        <div class="q-body">
+          <p>Light of wavelength \(590\,\mathrm{nm}\) is incident normally on a diffraction grating with \(500\) lines per mm. Calculate the angle of the first-order maximum.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>Slit spacing \(d = 1/(500\times10^{3}) = 2.00\times10^{-6}\,\mathrm{m}\).</p>
+          <p>\(\sin\theta = n\lambda/d = 1\times590\times10^{-9}/2.00\times10^{-6} = 0.295\).</p>
+          <p>\(\theta = \sin^{-1}(0.295) = 17.2^\circ\).</p>
+        </div>
+      </article>
+
+      <!-- Q4 Medium -->
+      <article class="question" data-diff="medium">
+        <div class="q-meta">
+          <span class="q-num">Q4</span> <span class="diff-tag medium">Medium</span>
+          <span class="q-marks">5 marks</span>
+        </div>
+        <div class="q-body">
+          <p>A string of length \(1.20\,\mathrm{m}\) is fixed at both ends and vibrates in its third harmonic at \(180\,\mathrm{Hz}\). Calculate the wave speed on the string and the wavelength of the progressive waves that form the standing wave.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>Third harmonic: \(L = 3\lambda/2 \Rightarrow \lambda = 2L/3 = 2\times1.20/3 = 0.80\,\mathrm{m}\).</p>
+          <p>\(v = f\lambda = 180\times0.80 = 144\,\mathrm{m\,s}^{-1}\).</p>
+        </div>
+      </article>
+
+      <!-- Q5 Medium -->
+      <article class="question" data-diff="medium">
+        <div class="q-meta">
+          <span class="q-num">Q5</span> <span class="diff-tag medium">Medium</span>
+          <span class="q-marks">5 marks</span>
+        </div>
+        <div class="q-body">
+          <p>A ray of light travels from air into glass. The angle of incidence is \(40^\circ\) and the refractive index of the glass is \(1.52\). Calculate the angle of refraction and the critical angle for light travelling from this glass into air.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>\(n\sin i = \sin r\) (air \(n=1\)): \(1.52\sin r = \sin40^\circ \Rightarrow \sin r = 0.423 \Rightarrow r = 25.0^\circ\).</p>
+          <p>Critical angle: \(\sin c = 1/1.52 = 0.658 \Rightarrow c = 41.1^\circ\).</p>
+        </div>
+      </article>
+
+      <!-- Q6 Medium -->
+      <article class="question" data-diff="medium">
+        <div class="q-meta">
+          <span class="q-num">Q6</span> <span class="diff-tag medium">Medium</span>
+          <span class="q-marks">6 marks</span>
+        </div>
+        <div class="q-body">
+          <p>Two coherent sources \(S_1\) and \(S_2\) emit sound of wavelength \(0.60\,\mathrm{m}\). A detector moves along a line parallel to \(S_1S_2\) and records successive maxima separated by \(0.45\,\mathrm{m}\). The perpendicular distance from the midpoint of \(S_1S_2\) to the line is \(2.0\,\mathrm{m}\). Calculate the separation of the two sources.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>Fringe spacing \(w = \lambda D / a\), where \(a\) is source separation, \(D\) is distance to screen/line.</p>
+          <p>\(0.45 = (0.60\times2.0)/a \Rightarrow a = 1.20/0.45 = 2.67\,\mathrm{m}\).</p>
+        </div>
+      </article>
+
+      <!-- Q7 Medium -->
+      <article class="question" data-diff="medium">
+        <div class="q-meta">
+          <span class="q-num">Q7</span> <span class="diff-tag medium">Medium</span>
+          <span class="q-marks">5 marks</span>
+        </div>
+        <div class="q-body">
+          <p>Explain what is meant by path difference and phase difference for two waves. A standing wave is formed on a string. At a node the amplitude is zero. Explain, in terms of path difference, why a node occurs at the fixed ends of the string.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>Path difference: the difference in the distances travelled by two waves from their sources to a point. Phase difference: the corresponding difference in phase (\(\Delta\phi = 2\pi\times\text{path difference}/\lambda\)).</p>
+          <p>At a fixed end the reflected wave undergoes a \(\pi\) phase change. The incident and reflected waves therefore meet in antiphase (path difference effectively \(\lambda/2\) plus the phase change), producing a permanent node.</p>
+        </div>
+      </article>
+
+      <!-- Q8 Hard -->
+      <article class="question" data-diff="hard">
+        <div class="q-meta">
+          <span class="q-num">Q8</span> <span class="diff-tag hard">Hard</span>
+          <span class="q-marks">6 marks</span>
+        </div>
+        <div class="q-body">
+          <p>Monochromatic light of wavelength \(450\,\mathrm{nm}\) is incident normally on a diffraction grating. The second-order maximum is observed at \(32^\circ\) to the normal. Calculate the number of lines per millimetre on the grating and the maximum order that can be observed.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>\(d\sin\theta = n\lambda \Rightarrow d = n\lambda/\sin\theta = 2\times450\times10^{-9}/\sin32^\circ = 1.70\times10^{-6}\,\mathrm{m}\).</p>
+          <p>Lines per mm: \(1/(d\times10^{3}) = 589\,\mathrm{mm}^{-1}\).</p>
+          <p>Maximum order: \(n_{\max} = d/\lambda = 1.70\times10^{-6}/450\times10^{-9} = 3.78\), so \(n_{\max}=3\).</p>
+        </div>
+      </article>
+
+      <!-- Q9 Hard -->
+      <article class="question" data-diff="hard">
+        <div class="q-meta">
+          <span class="q-num">Q9</span> <span class="diff-tag hard">Hard</span>
+          <span class="q-marks">7 marks</span>
+        </div>
+        <div class="q-body">
+          <p>A progressive transverse wave on a string is described by \(y = 0.05\sin(4\pi x - 20\pi t)\) where \(x\) and \(y\) are in metres and \(t\) in seconds. Determine the amplitude, wavelength, frequency and speed of the wave. State the direction of propagation.</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>Amplitude \(A = 0.05\,\mathrm{m}\).</p>
+          <p>\(k = 4\pi \Rightarrow \lambda = 2\pi/k = 0.50\,\mathrm{m}\).</p>
+          <p>\(\omega = 20\pi \Rightarrow f = \omega/2\pi = 10\,\mathrm{Hz}\).</p>
+          <p>\(v = f\lambda = 5.0\,\mathrm{m\,s}^{-1}\).</p>
+          <p>The form is \(f(kx - \omega t)\), so the wave travels in the positive \(x\)-direction.</p>
+        </div>
+      </article>
+
+      <!-- Q10 Hard -->
+      <article class="question" data-diff="hard">
+        <div class="q-meta">
+          <span class="q-num">Q10</span> <span class="diff-tag hard">Hard</span>
+          <span class="q-marks">6 marks</span>
+        </div>
+        <div class="q-body">
+          <p>Ultrasound of frequency \(2.5\,\mathrm{MHz}\) travels from soft tissue into bone. The speed in soft tissue is \(1500\,\mathrm{m\,s}^{-1}\) and in bone is \(4000\,\mathrm{m\,s}^{-1}\). Calculate the wavelength in each medium and the percentage of intensity reflected at the interface if the intensity reflection coefficient is given by \(\left(\dfrac{Z_2-Z_1}{Z_2+Z_1}\right)^2\) where the acoustic impedances are \(Z_{\mathrm{tissue}}=1.6\times10^{6}\) and \(Z_{\mathrm{bone}}=6.5\times10^{6}\,\mathrm{kg\,m}^{-2}\mathrm{s}^{-1}\).</p>
+        </div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer">
+          <p>\(\lambda_{\mathrm{tissue}} = v/f = 1500/(2.5\times10^{6}) = 6.0\times10^{-4}\,\mathrm{m}\).</p>
+          <p>\(\lambda_{\mathrm{bone}} = 4000/(2.5\times10^{6}) = 1.6\times10^{-3}\,\mathrm{m}\).</p>
+          <p>Reflection coefficient \(= \left(\dfrac{6.5-1.6}{6.5+1.6}\right)^2 = (4.9/8.1)^2 = 0.366\) (36.6% of intensity reflected).</p>
+        </div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-particles.html" class="btn btn-ghost">← Particles</a>
+        <a href="physics-mechanics-materials.html" class="btn btn-primary">Mechanics &amp; Materials →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

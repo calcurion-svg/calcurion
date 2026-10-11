@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "updated": "2026-09-30",
+  "lessons": [
+    {
+      "id": "gcse-fractions-decimals-percentages",
+      "title": "Fractions, Decimals & Percentages",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/fractions-decimals-percentages-lesson.pdf",
+      "description": "Conversions, percentage change, reverse percentages",
+      "topic": "Number",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-ratio-proportion",
+      "title": "Ratio & Proportion",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/ratio-proportion-lesson.pdf",
+      "description": "Sharing, unitary method, best buys, recipes",
+      "topic": "Number",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-standard-form",
+      "title": "Standard Form",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/standard-form-lesson.pdf",
+      "description": "Writing, calculating and converting standard form",
+      "topic": "Number",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-indices-surds",
+      "title": "Indices & Surds",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/indices-surds-lesson.pdf",
+      "description": "Laws of indices, simplifying surds, rationalising",
+      "topic": "Number",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-equations-inequalities",
+      "title": "Equations & Inequalities",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/equations-inequalities-lesson.pdf",
+      "description": "Linear equations, simultaneous, inequalities",
+      "topic": "Algebra",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-quadratic-equations",
+      "title": "Quadratic Equations",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/quadratic-equations-lesson.pdf",
+      "description": "Factorising, formula, completing the square",
+      "topic": "Algebra",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-sequences",
+      "title": "Sequences",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/sequences-lesson.pdf",
+      "description": "Arithmetic, geometric, nth term, Fibonacci",
+      "topic": "Algebra",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-graphs",
+      "title": "Graphs",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/graphs-lesson.pdf",
+      "description": "Straight lines, quadratics, real-life graphs",
+      "topic": "Algebra",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-pythagoras-trigonometry",
+      "title": "Pythagoras & Trigonometry",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/pythagoras-trigonometry-lesson.pdf",
+      "description": "Right-angled triangles, exact values, bearings",
+      "topic": "Geometry",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-area-volume",
+      "title": "Area & Volume",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/area-volume-lesson.pdf",
+      "description": "Circles, prisms, cylinders, cones, spheres",
+      "topic": "Geometry",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-circle-theorems",
+      "title": "Circle Theorems",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/circle-theorems-lesson.pdf",
+      "description": "Angle in semicircle, tangent, cyclic quadrilateral",
+      "topic": "Geometry",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-angles-polygons",
+      "title": "Angles & Polygons",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/angles-polygons-lesson.pdf",
+      "description": "Parallel lines, interior/exterior angles",
+      "topic": "Geometry",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-probability",
+      "title": "Probability",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/probability-lesson.pdf",
+      "description": "Tree diagrams, Venn, independent & conditional",
+      "topic": "Probability & Stats",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-averages-charts",
+      "title": "Averages & Charts",
+      "module": "gcse",
+      "moduleLabel": "GCSE Maths",
+      "file": "pdfs/gcse/averages-charts-lesson.pdf",
+      "description": "Mean, median, mode, histograms, cumulative frequency",
+      "topic": "Probability & Stats",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-algebra-functions",
+      "title": "Algebra & Functions",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/algebra-functions-lesson.pdf",
+      "description": "Quadratics, inequalities, factor theorem, graphs and transformations",
+      "topic": "Algebra & Functions",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-coordinate-geometry",
+      "title": "Coordinate Geometry",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/coordinate-geometry-lesson.pdf",
+      "description": "Straight lines, circles, intersections",
+      "topic": "Coordinate Geometry",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-trigonometry",
+      "title": "Trigonometry",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/trigonometry-lesson.pdf",
+      "description": "Identities, equations, graphs, sine/cosine rules",
+      "topic": "Trigonometry",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-exponentials-logs",
+      "title": "Exponentials & Logs",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/exponentials-logs-lesson.pdf",
+      "description": "Laws of logs, exponential growth and decay",
+      "topic": "Exponentials & Logs",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-differentiation",
+      "title": "Differentiation",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/differentiation-lesson.pdf",
+      "description": "First principles, rules, stationary points",
+      "topic": "Differentiation",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-integration",
+      "title": "Integration",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/integration-lesson.pdf",
+      "description": "Indefinite/definite integrals, area under curves",
+      "topic": "Integration",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-binomial-expansion",
+      "title": "Binomial Expansion",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/binomial-expansion-lesson.pdf",
+      "description": "Positive integer n, approximations",
+      "topic": "Binomial Expansion",
+      "placeholder": true
+    },
+    {
+      "id": "pure-1-vectors-2d",
+      "title": "Vectors (2D)",
+      "module": "pure-1",
+      "moduleLabel": "Pure 1",
+      "file": "pdfs/pure-1/vectors-2d-lesson.pdf",
+      "description": "Position vectors, magnitude, scalar product",
+      "topic": "Vectors (2D)",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-algebraic-methods",
+      "title": "Algebraic Methods",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/algebraic-methods-lesson.pdf",
+      "description": "Partial fractions, algebraic division",
+      "topic": "Algebraic Methods",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-functions-graphs",
+      "title": "Functions & Graphs",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/functions-graphs-lesson.pdf",
+      "description": "Domain, range, inverse, composite, modulus",
+      "topic": "Functions & Graphs",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-sequences-series",
+      "title": "Sequences & Series",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/sequences-series-lesson.pdf",
+      "description": "Arithmetic, geometric, sigma notation",
+      "topic": "Sequences & Series",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-binomial-expansion",
+      "title": "Binomial Expansion",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/binomial-expansion-lesson.pdf",
+      "description": "Any rational n, validity",
+      "topic": "Binomial Expansion",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-radians-trig",
+      "title": "Radians & Further Trig",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/radians-trig-lesson.pdf",
+      "description": "Radian measure, small angles, further identities",
+      "topic": "Radians & Further Trig",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-parametric",
+      "title": "Parametric Equations",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/parametric-lesson.pdf",
+      "description": "Parametric curves, differentiation, integration",
+      "topic": "Parametric Equations",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-further-differentiation",
+      "title": "Further Differentiation",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/further-differentiation-lesson.pdf",
+      "description": "Chain, product, quotient, implicit, parametric",
+      "topic": "Further Differentiation",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-further-integration",
+      "title": "Further Integration",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/further-integration-lesson.pdf",
+      "description": "Substitution, parts, partial fractions",
+      "topic": "Further Integration",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-numerical-methods",
+      "title": "Numerical Methods",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/numerical-methods-lesson.pdf",
+      "description": "Location of roots, iteration, Newton–Raphson",
+      "topic": "Numerical Methods",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-differential-equations",
+      "title": "Differential Equations",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/differential-equations-lesson.pdf",
+      "description": "First-order DEs, integrating factor",
+      "topic": "Differential Equations",
+      "placeholder": true
+    },
+    {
+      "id": "pure-2-vectors-3d",
+      "title": "Vectors (3D)",
+      "module": "pure-2",
+      "moduleLabel": "Pure 2",
+      "file": "pdfs/pure-2/vectors-3d-lesson.pdf",
+      "description": "3D vectors, scalar product, lines",
+      "topic": "Vectors (3D)",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-probability",
+      "title": "Probability",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/probability-lesson.pdf",
+      "description": "Conditional probability, tree diagrams, Venn",
+      "topic": "Probability",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-measures-location-spread",
+      "title": "Measures of Location & Spread",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/measures-location-spread-lesson.pdf",
+      "description": "Mean, variance, coding, outliers",
+      "topic": "Measures of Location & Spread",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-statistical-distributions",
+      "title": "Statistical Distributions",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/statistical-distributions-lesson.pdf",
+      "description": "Binomial, normal, discrete random variables",
+      "topic": "Statistical Distributions",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-hypothesis-testing",
+      "title": "Hypothesis Testing",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/hypothesis-testing-lesson.pdf",
+      "description": "Binomial and normal tests, critical regions",
+      "topic": "Hypothesis Testing",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-correlation-regression",
+      "title": "Correlation & Regression",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/correlation-regression-lesson.pdf",
+      "description": "PMCC, least squares, hypothesis tests",
+      "topic": "Correlation & Regression",
+      "placeholder": true
+    },
+    {
+      "id": "statistics-sampling-data",
+      "title": "Sampling & Data",
+      "module": "statistics",
+      "moduleLabel": "Statistics",
+      "file": "pdfs/statistics/sampling-data-lesson.pdf",
+      "description": "Sampling methods, large data set",
+      "topic": "Sampling & Data",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-kinematics",
+      "title": "Kinematics",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/kinematics-lesson.pdf",
+      "description": "SUVAT, variable acceleration, graphs",
+      "topic": "Kinematics",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-forces-newton",
+      "title": "Forces & Newton’s Laws",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/forces-newton-lesson.pdf",
+      "description": "Resultants, equilibrium, F=ma",
+      "topic": "Forces & Newton’s Laws",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-moments",
+      "title": "Moments",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/moments-lesson.pdf",
+      "description": "Moments, equilibrium of rigid bodies",
+      "topic": "Moments",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-projectiles",
+      "title": "Projectiles",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/projectiles-lesson.pdf",
+      "description": "Trajectory, range, maximum height",
+      "topic": "Projectiles",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-friction",
+      "title": "Friction",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/friction-lesson.pdf",
+      "description": "Limiting friction, inclined planes",
+      "topic": "Friction",
+      "placeholder": true
+    },
+    {
+      "id": "mechanics-connected-particles",
+      "title": "Connected Particles",
+      "module": "mechanics",
+      "moduleLabel": "Mechanics",
+      "file": "pdfs/mechanics/connected-particles-lesson.pdf",
+      "description": "Pulleys, Atwood, string systems",
+      "topic": "Connected Particles",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-complex-numbers",
+      "title": "Complex Numbers",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/complex-numbers-lesson.pdf",
+      "description": "Argand plane, loci, polynomials & conjugates",
+      "topic": "Complex Numbers",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-matrices",
+      "title": "Matrices",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/matrices-lesson.pdf",
+      "description": "Operations, determinants, inverses, linear systems",
+      "topic": "Matrices",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-linear-transformations",
+      "title": "Linear Transformations",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/linear-transformations-lesson.pdf",
+      "description": "Reflections, rotations, invariant lines & points",
+      "topic": "Linear Transformations",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-series",
+      "title": "Series",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/series-lesson.pdf",
+      "description": "Standard results, method of differences, proofs",
+      "topic": "Series",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-roots-polynomials",
+      "title": "Roots of Polynomials",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/roots-polynomials-lesson.pdf",
+      "description": "Relations between roots, transformations",
+      "topic": "Roots of Polynomials",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-volumes-revolution",
+      "title": "Volumes of Revolution",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/volumes-revolution-lesson.pdf",
+      "description": "Standard solids & non-standard shapes",
+      "topic": "Volumes of Revolution",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-proof-induction",
+      "title": "Proof by Induction",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/proof-induction-lesson.pdf",
+      "description": "Divisibility, sequences, matrices, inequalities",
+      "topic": "Proof by Induction",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-1-vectors",
+      "title": "Vectors",
+      "module": "core-pure-1",
+      "moduleLabel": "Core Pure 1",
+      "file": "pdfs/core-pure-1/vectors-lesson.pdf",
+      "description": "3D vectors, scalar product, vector product intro",
+      "topic": "Vectors",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-further-complex-numbers",
+      "title": "Further Complex Numbers",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/further-complex-numbers-lesson.pdf",
+      "description": "de Moivre, roots of unity, loci",
+      "topic": "Further Complex Numbers",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-maclaurin-series",
+      "title": "Maclaurin Series",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/maclaurin-series-lesson.pdf",
+      "description": "Standard expansions, limits, approximations",
+      "topic": "Maclaurin Series",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-methods-in-calculus",
+      "title": "Methods in Calculus",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/methods-in-calculus-lesson.pdf",
+      "description": "Improper integrals, mean values, arc length",
+      "topic": "Methods in Calculus",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-volumes-revolution",
+      "title": "Volumes of Revolution",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/volumes-revolution-lesson.pdf",
+      "description": "Parametric and polar forms",
+      "topic": "Volumes of Revolution",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-polar-coordinates",
+      "title": "Polar Coordinates",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/polar-coordinates-lesson.pdf",
+      "description": "Polar curves, area, conversions",
+      "topic": "Polar Coordinates",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-hyperbolic-functions",
+      "title": "Hyperbolic Functions",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/hyperbolic-functions-lesson.pdf",
+      "description": "Definitions, identities, inverse, calculus",
+      "topic": "Hyperbolic Functions",
+      "placeholder": true
+    },
+    {
+      "id": "core-pure-2-differential-equations",
+      "title": "Differential Equations",
+      "module": "core-pure-2",
+      "moduleLabel": "Core Pure 2",
+      "file": "pdfs/core-pure-2/differential-equations-lesson.pdf",
+      "description": "First and second order, particular integrals",
+      "topic": "Differential Equations",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-t-formulae",
+      "title": "t-formulae",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/t-formulae-lesson.pdf",
+      "description": "Weierstrass substitutions, equations",
+      "topic": "t-formulae",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-conic-sections",
+      "title": "Conic Sections",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/conic-sections-lesson.pdf",
+      "description": "Parabola, ellipse, hyperbola, rectangular hyperbola",
+      "topic": "Conic Sections",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-further-vectors",
+      "title": "Further Vectors",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/further-vectors-lesson.pdf",
+      "description": "Vector product, lines and planes in 3D",
+      "topic": "Further Vectors",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-taylor-series",
+      "title": "Taylor Series",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/taylor-series-lesson.pdf",
+      "description": "Taylor expansions, limits, differential equations",
+      "topic": "Taylor Series",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-further-inequalities",
+      "title": "Further Inequalities",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/further-inequalities-lesson.pdf",
+      "description": "Rational inequalities, modulus, critical values",
+      "topic": "Further Inequalities",
+      "placeholder": true
+    },
+    {
+      "id": "further-pure-1-reducible-des",
+      "title": "Reducible DEs",
+      "module": "further-pure-1",
+      "moduleLabel": "Further Pure 1",
+      "file": "pdfs/further-pure-1/reducible-des-lesson.pdf",
+      "description": "Substitutions reducing order or form",
+      "topic": "Reducible DEs",
+      "placeholder": true
+    },
+    {
+      "id": "further-mech-1-momentum-impulse",
+      "title": "Momentum & Impulse",
+      "module": "further-mech-1",
+      "moduleLabel": "Further Mech 1",
+      "file": "pdfs/further-mech-1/momentum-impulse-lesson.pdf",
+      "description": "Collisions, conservation, impulse–momentum",
+      "topic": "Momentum & Impulse",
+      "placeholder": true
+    },
+    {
+      "id": "further-mech-1-work-energy-power",
+      "title": "Work, Energy & Power",
+      "module": "further-mech-1",
+      "moduleLabel": "Further Mech 1",
+      "file": "pdfs/further-mech-1/work-energy-power-lesson.pdf",
+      "description": "Work–energy principle, power, efficiency",
+      "topic": "Work, Energy & Power",
+      "placeholder": true
+    },
+    {
+      "id": "further-mech-1-elastic-strings",
+      "title": "Elastic Strings & Springs",
+      "module": "further-mech-1",
+      "moduleLabel": "Further Mech 1",
+      "file": "pdfs/further-mech-1/elastic-strings-lesson.pdf",
+      "description": "Hooke’s law, elastic PE, energy methods",
+      "topic": "Elastic Strings & Springs",
+      "placeholder": true
+    },
+    {
+      "id": "further-mech-1-elastic-collisions-1d",
+      "title": "Elastic Collisions (1D)",
+      "module": "further-mech-1",
+      "moduleLabel": "Further Mech 1",
+      "file": "pdfs/further-mech-1/elastic-collisions-1d-lesson.pdf",
+      "description": "Direct impact, Newton’s experimental law",
+      "topic": "Elastic Collisions (1D)",
+      "placeholder": true
+    },
+    {
+      "id": "further-mech-1-elastic-collisions-2d",
+      "title": "Elastic Collisions (2D)",
+      "module": "further-mech-1",
+      "moduleLabel": "Further Mech 1",
+      "file": "pdfs/further-mech-1/elastic-collisions-2d-lesson.pdf",
+      "description": "Oblique impact, successive collisions",
+      "topic": "Elastic Collisions (2D)",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-energy",
+      "title": "Energy",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/energy-lesson.pdf",
+      "description": "Stores, transfers, efficiency, power and specific heat",
+      "topic": "Forces & Energy",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-forces",
+      "title": "Forces & Motion",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/forces-lesson.pdf",
+      "description": "Speed, acceleration, Newton's laws, weight and moments",
+      "topic": "Forces & Energy",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-pressure",
+      "title": "Pressure & Moments",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/pressure-lesson.pdf",
+      "description": "Pressure in solids, liquids and gases; moments and levers",
+      "topic": "Forces & Energy",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-waves",
+      "title": "Waves",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/waves-lesson.pdf",
+      "description": "Wave properties, EM spectrum, reflection and refraction",
+      "topic": "Waves & Electricity",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-electricity",
+      "title": "Electricity",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/electricity-lesson.pdf",
+      "description": "Current, voltage, resistance, circuits and power",
+      "topic": "Waves & Electricity",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-magnetism",
+      "title": "Magnetism & Electromagnetism",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/magnetism-lesson.pdf",
+      "description": "Magnets, fields, motors and generators",
+      "topic": "Waves & Electricity",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-particle-model",
+      "title": "Particle Model of Matter",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/particle-model-lesson.pdf",
+      "description": "Density, internal energy, specific heat and latent heat",
+      "topic": "Matter & Space",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-atomic",
+      "title": "Atomic Structure & Radioactivity",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/atomic-radioactivity-lesson.pdf",
+      "description": "Atoms, isotopes, radiation and half-life",
+      "topic": "Matter & Space",
+      "placeholder": true
+    },
+    {
+      "id": "gcse-physics-space",
+      "title": "Space Physics",
+      "module": "gcse-physics",
+      "moduleLabel": "GCSE Physics",
+      "file": "pdfs/gcse-physics/space-lesson.pdf",
+      "description": "Solar system, orbits, red-shift and the Big Bang",
+      "topic": "Matter & Space",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-mechanics-materials",
+      "title": "Mechanics & Materials",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/mechanics-materials-lesson.pdf",
+      "description": "Motion, forces, energy, momentum, density and Young modulus",
+      "topic": "Core",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-electricity",
+      "title": "Electricity",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/electricity-lesson.pdf",
+      "description": "Current, resistance, circuits, emf and internal resistance",
+      "topic": "Core",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-waves",
+      "title": "Waves",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/waves-lesson.pdf",
+      "description": "Progressive waves, superposition, stationary waves, refraction",
+      "topic": "Core",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-particles",
+      "title": "Particles & Radiation",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/particles-lesson.pdf",
+      "description": "Atomic structure, quarks, leptons and interactions",
+      "topic": "Core",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-thermal",
+      "title": "Thermal Physics",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/thermal-lesson.pdf",
+      "description": "Temperature, specific heat, ideal gases and kinetic theory",
+      "topic": "Further",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-fields",
+      "title": "Fields",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/fields-lesson.pdf",
+      "description": "Gravitational and electric fields, potential and capacitors",
+      "topic": "Further",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-magnetism",
+      "title": "Magnetic Fields",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/magnetism-lesson.pdf",
+      "description": "Magnetic force, flux, induction and transformers",
+      "topic": "Further",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-nuclear",
+      "title": "Nuclear Physics",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/nuclear-lesson.pdf",
+      "description": "Radioactivity, half-life, fission and fusion",
+      "topic": "Further",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-quantum",
+      "title": "Quantum Physics",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/quantum-lesson.pdf",
+      "description": "Photoelectric effect, energy levels and wave-particle duality",
+      "topic": "Further",
+      "placeholder": true
+    },
+    {
+      "id": "alevel-physics-circular-shm",
+      "title": "Circular Motion & SHM",
+      "module": "alevel-physics",
+      "moduleLabel": "A-Level Physics",
+      "file": "pdfs/alevel-physics/circular-shm-lesson.pdf",
+      "description": "Centripetal force, simple harmonic motion and resonance",
+      "topic": "Further",
+      "placeholder": true
+    }
+  ]
+}

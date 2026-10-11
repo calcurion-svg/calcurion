@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electricity — Calcurion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/questions.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <text x="4" y="21" font-family="Georgia, serif" font-size="18" fill="currentColor">∫</text>
+            <text x="14" y="20" font-family="Georgia, serif" font-size="14" fill="currentColor">Σ</text>
+          </svg>
+        </span>
+        <span class="logo-text">Calcurion</span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#physics" class="nav-link">← Topics</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="q-page">
+    <div class="container">
+      <div class="q-header">
+        <p class="q-breadcrumb"><a href="../index.html">Home</a> / Physics / AS</p>
+        <h1>Electricity</h1>
+        <p class="q-intro">12 exam-style questions on current, resistance, circuits, potential dividers and internal resistance. Tap <strong>Show answer</strong> for full working.</p>
+        <div class="q-stats">
+          <span class="diff-tag easy">4 Easy</span> <span class="diff-tag medium">4 Medium</span> <span class="diff-tag hard">4 Hard</span>
+        </div>
+      </div>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q1</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A current of \(2.5\,\mathrm{A}\) flows through a resistor for \(4.0\) minutes. Calculate the charge that passes and the number of electrons that flow past a point in the resistor. (\(e = 1.6\times10^{-19}\,\mathrm{C}\).)</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(Q = It = 2.5\times240 = 600\,\mathrm{C}\).</p><p>Number of electrons \(= Q/e = 600/1.6\times10^{-19} = 3.75\times10^{21}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q2</span><span class="diff-tag easy">Easy</span><span class="q-marks">3 marks</span></div>
+        <div class="q-body"><p>A \(12\,\mathrm{V}\) battery is connected to a \(6.0\,\Omega\) resistor. Calculate the current in the circuit and the power dissipated in the resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(I = V/R = 12/6 = 2.0\,\mathrm{A}\).</p><p>\(P = I^{2}R = 4\times6 = 24\,\mathrm{W}\) (or \(V^{2}/R = 24\,\mathrm{W}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q3</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>Two resistors of \(4.0\,\Omega\) and \(6.0\,\Omega\) are connected in series across a \(20\,\mathrm{V}\) supply. Calculate the total resistance, the current, and the potential difference across the \(6.0\,\Omega\) resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(R_{\mathrm{tot}} = 10\,\Omega\); \(I = 20/10 = 2.0\,\mathrm{A}\).</p><p>\(V_{6} = IR = 2\times6 = 12\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="easy">
+        <div class="q-meta"><span class="q-num">Q4</span><span class="diff-tag easy">Easy</span><span class="q-marks">4 marks</span></div>
+        <div class="q-body"><p>The same two resistors (\(4.0\,\Omega\) and \(6.0\,\Omega\)) are now connected in parallel across the \(20\,\mathrm{V}\) supply. Calculate the total resistance and the current through the \(4.0\,\Omega\) resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(1/R = 1/4 + 1/6 = 5/12 \Rightarrow R = 2.4\,\Omega\).</p><p>\(I_{4} = V/R = 20/4 = 5.0\,\mathrm{A}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q5</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A cell has EMF \(1.5\,\mathrm{V}\) and internal resistance \(0.50\,\Omega\). It is connected to a \(2.5\,\Omega\) resistor. Calculate the current in the circuit and the terminal potential difference.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(I = \mathcal{E}/(R+r) = 1.5/(2.5+0.5) = 0.50\,\mathrm{A}\).</p><p>\(V = IR = 0.50\times2.5 = 1.25\,\mathrm{V}\) (or \(\mathcal{E}-Ir = 1.25\,\mathrm{V}\)).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q6</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>A potential divider consists of a \(3.0\,\mathrm{k}\Omega\) resistor and a \(5.0\,\mathrm{k}\Omega\) resistor in series across a \(12\,\mathrm{V}\) supply. Calculate the output voltage across the \(5.0\,\mathrm{k}\Omega\) resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(V_{\mathrm{out}} = V\times R_{2}/(R_{1}+R_{2}) = 12\times5/(3+5) = 7.5\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q7</span><span class="diff-tag medium">Medium</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A wire of resistivity \(1.7\times10^{-8}\,\Omega\,\mathrm{m}\), length \(2.0\,\mathrm{m}\) and diameter \(0.40\,\mathrm{mm}\) carries a current of \(1.5\,\mathrm{A}\). Calculate the resistance of the wire and the potential difference across it.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(A = \pi(0.20\times10^{-3})^{2} = 1.26\times10^{-7}\,\mathrm{m}^{2}\).</p><p>\(R = \rho L/A = 1.7\times10^{-8}\times2.0/1.26\times10^{-7} = 0.270\,\Omega\).</p><p>\(V = IR = 1.5\times0.270 = 0.405\,\mathrm{V}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="medium">
+        <div class="q-meta"><span class="q-num">Q8</span><span class="diff-tag medium">Medium</span><span class="q-marks">5 marks</span></div>
+        <div class="q-body"><p>Explain what is meant by the EMF of a cell and its internal resistance. A cell of EMF \(3.0\,\mathrm{V}\) and internal resistance \(1.0\,\Omega\) is connected to a variable resistor \(R\). Sketch a graph of terminal PD against current and explain how the EMF and internal resistance can be determined from the graph.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>EMF: the energy transferred per unit charge by the cell when charge flows round a complete circuit (or open-circuit terminal PD). Internal resistance: the resistance of the materials inside the cell that dissipates energy as heat.</p><p>Graph of \(V\) vs \(I\) is a straight line with intercept \(\mathcal{E}\) on the \(V\)-axis and gradient \(-r\). Short-circuit current intercept on \(I\)-axis is \(\mathcal{E}/r\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q9</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A battery of EMF \(12\,\mathrm{V}\) and internal resistance \(0.80\,\Omega\) is connected to two resistors of \(3.0\,\Omega\) and \(6.0\,\Omega\) in parallel. Calculate the current drawn from the battery and the power dissipated in the \(3.0\,\Omega\) resistor.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>Parallel combination: \(R_p = (3\times6)/(3+6) = 2.0\,\Omega\).</p><p>Total resistance \(= 2.0 + 0.80 = 2.8\,\Omega\); \(I_{\mathrm{total}} = 12/2.8 = 4.29\,\mathrm{A}\).</p><p>Terminal PD \(= I\times R_p = 4.29\times2.0 = 8.57\,\mathrm{V}\).</p><p>\(I_{3} = 8.57/3 = 2.86\,\mathrm{A}\); \(P_{3} = I^{2}R = (2.86)^{2}\times3 = 24.5\,\mathrm{W}\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q10</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A thermistor has resistance \(4.0\,\mathrm{k}\Omega\) at \(20^\circ\mathrm{C}\) and \(1.5\,\mathrm{k}\Omega\) at \(60^\circ\mathrm{C}\). It is connected in series with a fixed \(2.0\,\mathrm{k}\Omega\) resistor across a \(9.0\,\mathrm{V}\) supply to form a potential divider, with the output taken across the fixed resistor. Calculate the output voltage at each temperature and state whether the output rises or falls as temperature increases.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>At \(20^\circ\mathrm{C}\): \(V_{\mathrm{out}} = 9\times2/(4+2) = 3.0\,\mathrm{V}\).</p><p>At \(60^\circ\mathrm{C}\): \(V_{\mathrm{out}} = 9\times2/(1.5+2) = 5.14\,\mathrm{V}\).</p><p>Output rises as temperature increases (thermistor resistance falls, larger share of voltage across fixed resistor).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q11</span><span class="diff-tag hard">Hard</span><span class="q-marks">7 marks</span></div>
+        <div class="q-body"><p>In a circuit a cell of EMF \(\mathcal{E}\) and internal resistance \(r\) is connected to a load resistor \(R\). Show that the power delivered to the load is \(P = \mathcal{E}^{2}R/(R+r)^{2}\). Hence find the value of \(R\) for which \(P\) is a maximum, and state the maximum power in terms of \(\mathcal{E}\) and \(r\).</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(I = \mathcal{E}/(R+r)\); \(P = I^{2}R = \mathcal{E}^{2}R/(R+r)^{2}\).</p><p>To maximise, differentiate: let \(u=R\), \(v=(R+r)^{2}\); \(\mathrm{d}P/\mathrm{d}R = 0\) when \(v - u\cdot2(R+r) = 0 \Rightarrow (R+r)^{2} - 2R(R+r) = 0 \Rightarrow R+r - 2R = 0 \Rightarrow R = r\).</p><p>Maximum power \(= \mathcal{E}^{2}r/(2r)^{2} = \mathcal{E}^{2}/(4r)\).</p></div>
+      </article>
+
+      <article class="question" data-diff="hard">
+        <div class="q-meta"><span class="q-num">Q12</span><span class="diff-tag hard">Hard</span><span class="q-marks">6 marks</span></div>
+        <div class="q-body"><p>A copper wire of length \(L\) and diameter \(d\) has resistance \(R\). A second wire of the same material has length \(2L\) and diameter \(2d\). Calculate the ratio of the resistance of the second wire to the first.</p></div>
+        <button class="answer-btn" type="button">Show answer</button>
+        <div class="answer"><p>\(R = \rho L/A\); \(A \propto d^{2}\).</p><p>\(R_{2}/R_{1} = (L_{2}/L_{1})\times(A_{1}/A_{2}) = 2\times(d^{2}/(2d)^{2}) = 2\times(1/4) = 1/2\).</p></div>
+      </article>
+
+      <div class="q-footer-nav">
+        <a href="physics-mechanics-materials.html" class="btn btn-ghost">← Mechanics &amp; Materials</a>
+        <a href="physics-quantum.html" class="btn btn-primary">Quantum →</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/app.js"></script>
+  <script src="../js/questions.js"></script>
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] } };</script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
